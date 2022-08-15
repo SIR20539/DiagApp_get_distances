@@ -4,20 +4,12 @@ export const trams = [
     key: 'MTIxTmFC',
   },
   {
-    name: '121NBT',
-    key: 'MTIxTmJU',
-  },
-  {
     name: '122NAB-10',
     key: 'MTIyTmFCLTEw',
   },
   {
-    name: '122NAL',
-    key: 'MTIyTmFM',
-  },
-  {
-    name: '122NAL-10',
-    key: 'MTIyTmFMLTEw',
+    name: '121NBT',
+    key: 'MTIxTmJU',
   },
   {
     name: '122NBT',
@@ -31,6 +23,15 @@ export const trams = [
     name: '122NBT DUO',
     key: 'MTIyTmJUX0RVTw==',
   },
+  {
+    name: '122NAL',
+    key: 'MTIyTmFM',
+  },
+  {
+    name: '122NAL-10',
+    key: 'MTIyTmFMLTEw',
+  },
+
   {
     name: '128NG-10',
     key: 'MTI4TkctMTA=',

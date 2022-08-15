@@ -1,9 +1,9 @@
-import { trams, getUrl } from './trams';
+import { trams, getUrl } from './trams.js';
 const tramsDiv = document.getElementById('trams');
 const input = document.querySelector('input');
 const startBtn = document.getElementById('hashBtn');
 
-// input.value = '70f85cef-2e8e-4657-93be-cafcd19668a8';
+input.value = '70f85cef-2e8e-4657-93be-cafcd19668a8';
 const divDistances = document.getElementById('distances');
 
 const createTramIcon = (tramName) => {
@@ -30,11 +30,16 @@ const sortData = (dataObj) => {
 };
 
 const fetchdata = async (url) => {
-  const responce = await fetch(url);
-  const data = await responce.json();
-  const distance = data.Values.Distance;
-  sortData(distance);
-  showDistance(distance);
+  try {
+    const responce = await fetch(url);
+    const data = await responce.json();
+    const distance = data.Values.Distance;
+    //  divDistances.innerHTML = '';
+    sortData(distance);
+    showDistance(distance);
+  } catch (error) {
+    console.log(error);
+  }
 };
 
 const getKey = (button) => {

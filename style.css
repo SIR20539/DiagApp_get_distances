@@ -12,12 +12,19 @@ div{
     text-align: center;
 }
 
-.trams{
+button{
     margin-right: 5px;
     padding: 2px;
+    background-color: white;
+    color: black;
+}
+button:hover{
+    background-color: black;
+    color: white;
 }
 
 p{
     font-size: 16px;
     padding-left: 20px;
+    margin-bottom: 5px;
 }
