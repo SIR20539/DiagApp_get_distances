@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+div{
+    margin: 20px 20px ;
+}
+#hash input{
+    width: 30vw;
+    text-align: center;
+}
+
+.trams{
+    margin-right: 5px;
+    padding: 2px;
+}
+
+p{
+    font-size: 16px;
+    padding-left: 20px;
+}
