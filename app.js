@@ -3,7 +3,7 @@ const tramsDiv = document.getElementById('trams');
 const input = document.querySelector('input');
 const startBtn = document.getElementById('hashBtn');
 
-input.value = '70f85cef-2e8e-4657-93be-cafcd19668a8';
+// input.value = '70f85cef-2e8e-4657-93be-cafcd19668a8';
 const divDistances = document.getElementById('distances');
 
 const createTramIcon = (tramName) => {
