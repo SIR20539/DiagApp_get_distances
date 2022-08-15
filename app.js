@@ -1,4 +1,4 @@
-import { trams, getUrl } from './src/trams.js';
+import { trams, getUrl } from './trams';
 const tramsDiv = document.getElementById('trams');
 const input = document.querySelector('input');
 const startBtn = document.getElementById('hashBtn');
